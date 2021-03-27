@@ -3,13 +3,13 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
-import Launches from './views/Launches';
+import Launches from './containers/Launches';
 
 const Routes = () => (
   <Router>
     <div>
-      <Route exact path="/" component={Launches}/>
-      <Route path="/Launches" component={Launches}/>
+      <Route exact path="/" component={Launches} />
+      <Route path="/Launches" component={Launches} />
     </div>
   </Router>
 );

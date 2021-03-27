@@ -9,7 +9,6 @@ const menu = Navigation();
 function MasterLayoutHOC(WrappedComponent, pageName) {
   class MasterLayoutImpl extends Component {
     render() {
-
       const layoutProps = {
         menu,
         pageName

@@ -1,0 +1,3 @@
+export const REQUEST_ROCKET = 'REQUEST_ROCKET';
+export const RECEIVE_ROCKET = 'RECEIVE_ROCKET';
+export const RESET_ROCKET = 'RESET_ROCKET';
