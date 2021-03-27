@@ -1,16 +1,16 @@
 import React from 'react';
 
 const Layout = ({
-                  pageName, menu, children
-                }) => {
+  pageName, menu, children
+}) => {
   return (
     <main className={`${pageName} layout`}>
       <nav>
-        { menu }
+        {menu}
       </nav>
 
       <section>
-        { children }
+        {children}
       </section>
     </main>
   );

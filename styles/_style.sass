@@ -3,6 +3,11 @@
 body
   margin: 0
 
+button 
+  border: none
+  padding: 10px
+  cursor: pointer
+
 #app
   font-family: 'Roboto', sans-serif
   display: flex
@@ -16,6 +21,19 @@ body
     flex-direction: column
     width: 100%
 
+    .flex 
+      display: flex
+      flex-direction: row
+      justify-content: flex-start
+    .more
+      margin-top: 20px
+    .card
+      margin: 20px
+      padding: 20px
+      background: white
+      list-style: none
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, .1)
+  
     main
 
       display: flex
@@ -25,19 +43,23 @@ body
 
       > nav
         width: 200px
-        border-right: 2px solid #999
-        background: #eee
+        background: #FFF
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, .1)
 
         > ul
           list-style: none
           padding: 8px
           margin: 0
 
+          li.logo 
+              background: white
+              border-bottom: none
+
           > li
             margin: 4px;
             padding: 4px
-            background: #ccc
-            border-bottom: 2px solid #ccc
+            background: #EFEFEF
+            border-bottom: 2px solid #EFEFEF
 
             &:hover
               background: #ddd
